@@ -1,14 +1,9 @@
 <template>
-  <ListaDeTareas></ListaDeTareas>
-  <contador></contador>
+  <MainView></MainView>
 </template>
 
 <script setup>
-import Contador from "./components/Contador.vue";
-import ListaDeTareas from "./components/ListaDeTareas.vue";
+import MainView from "./views/MainVue.vue";
 </script>
-<style scoped>
-p {
-  color: yellow;
-}
-</style>
+
+<style scoped></style>
