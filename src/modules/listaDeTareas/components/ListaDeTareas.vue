@@ -15,6 +15,7 @@
 import { ref } from "vue";
 const tareas = ref([]);
 const nuevaTarea = ref("");
+
 const addTask = () => {
   tareas.value.push(nuevaTarea.value);
   nuevaTarea.value = "";
